@@ -13,17 +13,6 @@ p{font-family: "Georgia";
     text-align: center;
     color: white;
 }
-section{
-    margin: 1em;
-    padding: 1em;
-    max-width: 80%;
-    /*flex-basis: content;
-    align-self: stretch;
-    /*display: table;*/
-}
-section:hover {
-    transition: all 1s ease;
-    opacity: (1.5) ;    transform: scale(1.5);}
 
 h1{
     font-size: 2em;
