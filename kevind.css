@@ -1,6 +1,7 @@
-/*Stylesheet for index_css*/
+/*Stylesheet for index.html*/
 
 body{
+    background-color: grey
     font-family: "Liberation Sans";
     font-size: 1em;
     line-height: 1.5;
