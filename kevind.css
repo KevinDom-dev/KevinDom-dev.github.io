@@ -8,8 +8,10 @@ body {
     background-attachment: fixed;
 }
 
-p{
-
+p{font-family: "Georgia";
+    font-size: 20px;
+    text-align: center;
+    color: white;
 }
 section{
     margin: 1em;
@@ -21,9 +23,7 @@ section{
 }
 section:hover {
     transition: all 1s ease;
-    opacity: 0.7;
-    transform: scale(1.5);
-}
+    opacity: (1.5) ;    transform: scale(1.5);}
 
 h1{
     font-size: 2em;
