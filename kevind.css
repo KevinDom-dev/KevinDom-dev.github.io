@@ -93,11 +93,6 @@ section:nth-child(even){
     background: linear-gradient(225deg, transparent 1em, limegreen 1em);
 }
 /*Flexboxes*/
-.flexcontainer{
-    display: flex;
-    flex-wrap: wrap;
-    margin-top: 4em;
-}
 
 /*navbar*/
 #navbar{
@@ -115,26 +110,10 @@ section:nth-child(even){
     padding: 1em;
     text-decoration: none;
 }
-#navbar a.active{
-    background-color: limegreen;
-    background: linear-gradient(225deg, transparent 0.7em, limegreen 0.7em);
-}
+
 #navbar a:hover{
     background-color: #333333;
     background: linear-gradient(225deg, transparent 0.7em, #333333 0.7em);
 }
-#navbar a.active:hover{
-    background-color: limegreen;
-    background: linear-gradient(225deg, transparent 0.7em, limegreen 0.7em);
-}
 
 /*Icons*/
-.material-icons {
-
-    font-size: 1em; /* Preferred icon size */
-    /*display: inline-block;*/
-    line-height: 1;
-    padding: 0;
-    padding-right: 0.5em;
-    padding-left: 0.5em;
-}
