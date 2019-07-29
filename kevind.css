@@ -2,7 +2,7 @@
 
 
 body {
-    background-image: url("/white-green-gradient-linear-5120x2880-c2-ffffff-adff2f-a-300-f-14.svg");
+    background-image: url("https://github.com/KevinDom-dev/KevinDom-dev.github.io/blob/master/white-green-gradient-linear-5120x2880-c2-ffffff-adff2f-a-300-f-14.svg");
     background-size: 100%, 100%;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -13,7 +13,12 @@ p{font-family: "Georgia";
     text-align: center;
     color: white;
 }
-
+section{
+    margin: 1em;
+    padding: 1em;
+    max-width: 40%;
+    align-self: center;
+}
 h1{
     font-size: 2em;
     border-bottom: 1px solid #eaecef;
@@ -32,9 +37,7 @@ h3{
     padding-bottom: .3em;
     margin-top: 0;
 }
-img{
 
-}
 table{
     border-collapse: collapse;
     width:100%
@@ -50,27 +53,13 @@ th, td{
 th{
     background-color: #73716c;
 }
-th:nth-child(odd){
-    background-color: #333333;
-}
-th:nth-child(even){
-    background-color: #333333;
-}
+
 th:nth-last-child(1){
     background: linear-gradient(225deg, transparent 0.7em, #73716c 0.7em);
 
 }
-td:nth-child(odd){
-    background-color: palegreen;
-    color: #333333;
-}
-td:nth-child(even){
-    background-color: forestgreen;
-    color: white;
-}
-ul{
 
-}
+
 section:nth-child(odd){
     background-color: #73716c;
     color: white;
