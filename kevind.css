@@ -8,17 +8,13 @@ body {
     background-attachment: fixed;
 }
 
-p{font-family: "Georgia";
+p{
+    font-family: "Georgia", serif;
     font-size: 20px;
     text-align: center;
     color: white;
 }
-section{
-    margin: 1em;
-    padding: 1em;
-    max-width: 40%;
-    align-self: center;
-}
+
 h1{
     font-size: 2em;
     border-bottom: 1px solid #eaecef;
@@ -58,7 +54,6 @@ th:nth-last-child(1){
     background: linear-gradient(225deg, transparent 0.7em, #73716c 0.7em);
 
 }
-
 
 
 /*Flexboxes*/
