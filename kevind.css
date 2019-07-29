@@ -60,16 +60,7 @@ th:nth-last-child(1){
 }
 
 
-section:nth-child(odd){
-    background-color: #73716c;
-    color: white;
-    background: linear-gradient(225deg, transparent 1em, #73716c 1em);
-}
-section:nth-child(even){
-    background-color: limegreen;
-    color: white;
-    background: linear-gradient(225deg, transparent 1em, limegreen 1em);
-}
+
 /*Flexboxes*/
 
 /*navbar*/
