@@ -1,11 +1,10 @@
-/*Stylesheet new*/
 
-div {
-  border: 1px solid gray;
-  padding: 8px;
-  width: 100px;
+body {
+  background: url("whitegreen.svg");
+  background-size: 100%, 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
-
 img {
   border-radius: 8px;
 }
@@ -26,19 +25,20 @@ p {
 text-align: center;
 margin-left: 70px;
 font-style: normal;
+  font-size: 20px;
 background-color: white;
+  border: 1px solid gray;
+  padding: 8px;
+  width: 100px;
 }
 
-body {
-  background: url("whitegreen.svg"); no-repeat; fixed;
-}
 
 table, th, td {
   text-align: center;
   border: 1px solid black;
 }
 
-div navbar {
+navbar {
 ul {
   list-style-type: none;
   margin: 0;
