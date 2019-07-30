@@ -6,6 +6,7 @@ body {
   background-attachment: fixed;
 }
 img {
+  margin: auto;
   border-radius: 8px;
   position: center;
 }
@@ -15,14 +16,13 @@ img {
   text-align: center;
   text-decoration: underline;
    display: block;
-    margin-left: auto;
-    margin-right: auto;
+    margin: auto;
 }
 
 h1, h2, h3 {
   text-align: center;
   color: #4CAF50;
-  margin-left: 70px;
+  margin: auto;
   background-color: white;
 }
 p { 
@@ -38,6 +38,7 @@ background-color: white;
 
 
 table, th, td {
+  margin: auto;
   text-align: center;
   border: 1px solid black;
   width: 50%;
