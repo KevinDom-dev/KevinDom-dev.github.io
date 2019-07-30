@@ -38,7 +38,13 @@ table, th, td {
   border: 1px solid black;
 }
 
-navbar {
+.navbar { 
+  position: absolute;
+  width: 100%;
+  background: grey;
+  top: 0;
+  
+}
 ul {
   list-style-type: none;
   margin: 0;
@@ -62,6 +68,6 @@ li a {
 li a:hover {
   background-color: #111;
 }
-}
+
 
 
