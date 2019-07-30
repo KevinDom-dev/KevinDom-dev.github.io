@@ -41,13 +41,7 @@ table, th, td {
     
 }
 
-.navbar { 
-  position: absolute;
-  width: 100%;
-  background: grey;
-  bottom: 0;
-  
-}
+
 ul {
   list-style-type: none;
   margin: 0;
@@ -73,5 +67,10 @@ li a:hover {
   background-color: #111;
 }
 
-
+.navbar { 
+  position: absolute;
+  width: 100%;
+  background: grey;
+  bottom: 0;  
+}
 
