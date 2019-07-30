@@ -27,13 +27,9 @@ h1, h2, h3 {
 }
 p { 
 text-align: center;
-margin-left: 70px;
+margin: auto;
 font-style: normal;
   font-size: 20px;
-background-color: white;
-  border: 1px solid gray;
-  padding: 8px;
-  width: 100px;
 }
 
 
@@ -50,7 +46,7 @@ table, th, td {
   position: absolute;
   width: 100%;
   background: grey;
-  top: 0;
+  bottom: 0;
   
 }
 ul {
