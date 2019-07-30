@@ -5,72 +5,62 @@ body {
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
+
 .image {
   display: block;
-  margin: auto;
-  border-radius: 8px;
-  height: 50%;
-  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  height: 376px;
+  width: 315px;
+  margin-bottom: 10px;
 }
 
 .header {
-  
+
   text-align: center;
-   display: block;
-    margin: auto;
+  display: block;
+  margin: auto;
+  margin-bottom: 25px;
 }
+
 
 h1, h2, h3 {
   text-align: center;
   margin: auto;
+  margin-bottom: 25px;
 }
-p { 
-text-align: center;
-margin: auto;
-font-style: normal;
+
+p {
+  text-align: center;
+  margin-bottom: 25px;
+  font-style: normal;
   font-size: 20px;
+  margin-left: 15%;
+  margin-right: 15%;
 }
 
-
-table, th, td {
+.table1 {
   margin: auto;
   text-align: center;
   border: solid black;
   width: 50%;
-  
-    
+  margin-bottom: 25px;
 }
 
-
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  text-decoration: none;
-  
-}
-
-li {
-  float: center;
-}
-
-li a {
-  display: block;
-  color: white;
-  text-align: center;
+.table2 {
+  border: 0px;
   margin: auto;
-
+  text-align: center;
+  border-collapse: collapse;
+  width: 50%;
+  margin-bottom: 25px;
 }
 
-li a:hover {
-  background-color: #111;
+
+a {
+  text-decoration: none
 }
 
-.navbar { 
-  position: absolute;
-  width: 100%;
-  background: grey;
-  bottom: 0;  
-}
+
+
 
